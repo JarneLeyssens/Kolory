@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOLORY — Hairdresser &amp; Colorist</title>
+  <meta name="description" content="KOLORY — jouw adres voor haarkleuring, extensions, trichologie en QIQI-behandelingen. Kleur die bij jou past.">
+  <link rel="icon" type="image/png" href="Assets/Logo/Logo_RED.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="#top" class="nav-logo" aria-label="KOLORY — naar boven">
+        <img src="Assets/Logo/Logo_ORANGE.png" alt="KOLORY logo">
+      </a>
+      <button class="nav-toggle" aria-label="Menu openen" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#diensten">Diensten</a></li>
+        <li><a href="#coloring">Hair coloring</a></li>
+        <li><a href="#extensions">Extensions</a></li>
+        <li><a href="#trichologie">Trichologie</a></li>
+        <li><a href="#qiqi">QIQI</a></li>
+        <li><a href="#praktisch">Praktisch</a></li>
+        <li><a href="#praktisch" class="nav-cta">Maak een afspraak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="blob blob-mint"   style="width:340px;height:340px;top:-90px;left:-110px;"></div>
+    <div class="blob blob-orange" style="width:260px;height:260px;bottom:70px;right:-80px;"></div>
+    <div class="blob blob-sage"   style="width:180px;height:180px;top:40%;right:8%;"></div>
+    <div class="wrap">
+      <img class="hero-logo" src="Assets/Logo/Logo_RED.png" alt="KOLORY">
+      <h1>Kleur die bij jou past.</h1>
+      <p>
+        Van een zonnige balayage tot een gezonde hoofdhuid: bij KOLORY draait alles
+        om haar dat er goed uitziet &eacute;n goed aanvoelt. Persoonlijk advies,
+        eerlijke prijzen en altijd een kleur op maat.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#praktisch">Maak een afspraak</a>
+        <a class="btn btn-secondary" href="#diensten">Ontdek de diensten</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- wave: blue -> cream -->
+  <svg class="wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,70 L0,70 Z" fill="#fdfaf4"/>
+  </svg>
+
+  <!-- ============ DIENSTEN OVERZICHT ============ -->
+  <section class="services" id="diensten">
+    <div class="wrap">
+      <span class="section-label">Diensten</span>
+      <h2 class="section-title">Wat kan ik voor jou doen?</h2>
+      <p class="lead">
+        Elke behandeling start met een babbel en een blik op jouw haar. Zo weet je
+        vooraf precies wat we doen, hoelang het duurt en wat het kost.
+      </p>
+
+      <div class="services-grid">
+        <a class="service-card" href="#coloring">
+          <span class="service-icon" aria-hidden="true">&#10047;</span>
+          <h3>Hair coloring</h3>
+          <p>Balayage, highlights, gloss of volledige kleuring &mdash; ontdek alle technieken en prijzen.</p>
+          <span class="more">Bekijk technieken &amp; prijzen &rarr;</span>
+        </a>
+        <a class="service-card" href="#extensions">
+          <span class="service-icon" aria-hidden="true">&#10048;</span>
+          <h3>Hair extensions</h3>
+          <p>Meer lengte of volume met kwalitatief echt haar, onzichtbaar geplaatst.</p>
+          <span class="more">Meer info &rarr;</span>
+        </a>
+        <a class="service-card" href="#trichologie">
+          <span class="service-icon" aria-hidden="true">&#10049;</span>
+          <h3>Trichologie</h3>
+          <p>Hoofdhuidanalyse en gerichte behandelingen bij roos, jeuk of haaruitval.</p>
+          <span class="more">Meer info &rarr;</span>
+        </a>
+        <a class="service-card" href="#qiqi">
+          <span class="service-icon" aria-hidden="true">&#10050;</span>
+          <h3>QIQI</h3>
+          <p>De anti-frizz &amp; straightening behandeling voor wekenlang glad, glanzend haar.</p>
+          <span class="more">Meer info &rarr;</span>
+        </a>
+        <a class="service-card" href="#extra">
+          <span class="service-icon" aria-hidden="true">&#10051;</span>
+          <h3>Aanvullende behandelingen</h3>
+          <p>Knippen, brushen, verzorgende boosters en meer &mdash; de finishing touch.</p>
+          <span class="more">Meer info &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- wave: cream -> bordeaux -->
+  <svg class="wave" style="background:#fdfaf4" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,30 C240,70 480,0 720,35 C960,70 1200,5 1440,35 L1440,70 L0,70 Z" fill="#7d121e"/>
+  </svg>
+
+  <!-- ============ HAIR COLORING ============ -->
+  <section class="coloring" id="coloring" style="padding-top:3rem">
+    <div class="wrap">
+      <span class="section-label">Hair coloring</span>
+      <h2 class="section-title">Technieken &amp; prijzen</h2>
+      <p class="lead">
+        Niet zeker welke techniek bij jou past? Geen zorgen &mdash; tijdens het
+        gratis kleuradvies bekijken we samen wat haalbaar is voor jouw haar,
+        jouw stijl en jouw budget.
+      </p>
+
+      <div class="coloring-types">
+        <div class="color-type">
+          <h3>Volledige kleuring <span class="price">vanaf &euro;70</span></h3>
+          <p>&Eacute;&eacute;n egale kleur van uitgroei tot punten. Ideaal om grijs te dekken of voor een volledig nieuwe look.</p>
+        </div>
+        <div class="color-type">
+          <h3>Uitgroeikleuring <span class="price">vanaf &euro;55</span></h3>
+          <p>Alleen de uitgroei wordt bijgekleurd zodat je kleur er weer fris uitziet. Perfect als onderhoud om de 4 &agrave; 6 weken.</p>
+        </div>
+        <div class="color-type">
+          <h3>Highlights / folies <span class="price">vanaf &euro;75</span></h3>
+          <p>Fijne of bredere lichte lokken met folies, van half hoofd tot volledig. Voor een zonnig, gemixt resultaat.</p>
+        </div>
+        <div class="color-type">
+          <h3>Balayage <span class="price">vanaf &euro;110</span></h3>
+          <p>Handgeschilderde, natuurlijke overgang van donker naar licht. Groeit prachtig uit, dus weinig onderhoud.</p>
+        </div>
+        <div class="color-type">
+          <h3>Babylights <span class="price">vanaf &euro;125</span></h3>
+          <p>Superfijne highlights die het effect van door de zon gebleekt haar nabootsen. Subtiel maar o zo mooi.</p>
+        </div>
+        <div class="color-type">
+          <h3>Money piece / face framing <span class="price">vanaf &euro;45</span></h3>
+          <p>Lichtere accenten rond het gezicht die je snit en gelaatstrekken doen stralen. Ook leuk als eerste stap.</p>
+        </div>
+        <div class="color-type">
+          <h3>Toner &amp; gloss <span class="price">vanaf &euro;35</span></h3>
+          <p>Verfrist je kleur, neutraliseert gele of koperige tinten en geeft direct meer glans. Klaar in een half uurtje.</p>
+        </div>
+        <div class="color-type">
+          <h3>Kleurcorrectie <span class="price">op consultatie</span></h3>
+          <p>Thuis-experiment mislukt of toe aan een drastische switch? We bekijken samen een realistisch stappenplan.</p>
+        </div>
+        <div class="color-type">
+          <h3>Kleuradvies <span class="price">gratis</span></h3>
+          <p>Twijfel je? Kom gerust langs voor een vrijblijvende intake. We testen wat jouw haar aankan v&oacute;&oacute;r we starten.</p>
+        </div>
+      </div>
+
+      <p class="price-note">
+        * Alle prijzen zijn richtprijzen en afhankelijk van haarlengte, haardikte en
+        gebruikte producten. Je krijgt altijd een duidelijke prijs v&oacute;&oacute;r
+        we beginnen &mdash; geen verrassingen aan de kassa. Verzorgende nabehandeling
+        is steeds inbegrepen.
+      </p>
+    </div>
+  </section>
+
+  <!-- wave: bordeaux -> blue -->
+  <svg class="wave" style="background:#7d121e" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,35 C240,0 480,70 720,35 C960,0 1200,65 1440,30 L1440,70 L0,70 Z" fill="#d2e4ee"/>
+  </svg>
+
+  <!-- ============ EXTENSIONS ============ -->
+  <section class="detail detail-blue" id="extensions" style="padding-top:3rem">
+    <div class="wrap detail-inner">
+      <div class="detail-visual" style="background:#c8ffbe">
+        <img src="Assets/Logo/Logo_RED.png" alt="">
+      </div>
+      <div>
+        <span class="section-label" style="background:#d2e4ee;color:#517664">Hair extensions</span>
+        <h2 class="section-title">Meer lengte, meer volume</h2>
+        <p>
+          Droom je van langer of voller haar? Met hoogwaardige extensions van 100%
+          echt haar cre&euml;ren we een resultaat dat onzichtbaar aansluit bij je
+          eigen haar &mdash; in kleur, structuur &eacute;n gevoel.
+        </p>
+        <ul>
+          <li>Gratis intakegesprek: we bepalen samen de juiste methode, lengte en kleur</li>
+          <li>Verschillende systemen mogelijk, afgestemd op jouw haartype en levensstijl</li>
+          <li>Onderhoud en verwijdering gebeuren veilig in het salon</li>
+          <li>Je krijgt duidelijke verzorgingstips mee naar huis</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">100% echt haar</span>
+          <span class="tag">Kleur op maat</span>
+          <span class="tag">Prijs na intake</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- wave: blue -> cream -->
+  <svg class="wave" style="background:#d2e4ee" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,30 C260,65 520,5 760,40 C1000,70 1220,10 1440,40 L1440,70 L0,70 Z" fill="#fdfaf4"/>
+  </svg>
+
+  <!-- ============ TRICHOLOGIE ============ -->
+  <section class="detail" id="trichologie">
+    <div class="wrap detail-inner reverse">
+      <div class="detail-visual" style="background:#7d121e">
+        <img src="Assets/Logo/Logo_ORANGE.png" alt="">
+      </div>
+      <div>
+        <span class="section-label" style="background:#c8ffbe;color:#517664">Trichologie</span>
+        <h2 class="section-title">Een gezonde hoofdhuid, de basis van mooi haar</h2>
+        <p>
+          Roos, jeuk, een gevoelige of vette hoofdhuid, haaruitval&hellip; een
+          gezonde hoofdhuid is de start van gezond haar. Met een professionele
+          hoofdhuidanalyse zoeken we uit wat er aan de hand is en stellen we een
+          behandelplan op maat op.
+        </p>
+        <ul>
+          <li>Hoofdhuidanalyse met camera: zie zelf wat er op je hoofdhuid gebeurt</li>
+          <li>Gerichte behandelingen bij roos, jeuk, irritatie en haaruitval</li>
+          <li>Ontspannende hoofdhuidmassages en dieptereiniging</li>
+          <li>Advies over producten en verzorging voor thuis</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Analyse &amp; advies</span>
+          <span class="tag">Behandelplan op maat</span>
+          <span class="tag">Ook puur ontspanning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- wave: cream -> blue -->
+  <svg class="wave" style="background:#fdfaf4" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C220,5 460,65 720,30 C980,0 1200,60 1440,25 L1440,70 L0,70 Z" fill="#d2e4ee"/>
+  </svg>
+
+  <!-- ============ QIQI ============ -->
+  <section class="detail detail-blue" id="qiqi">
+    <div class="wrap detail-inner">
+      <div class="detail-visual" style="background:#f57200">
+        <img src="Assets/Logo/Logo_BLUE.png" alt="">
+      </div>
+      <div>
+        <span class="section-label" style="background:#f57200;color:#fdfaf4">QIQI</span>
+        <h2 class="section-title">Wekenlang glad &amp; glanzend haar</h2>
+        <p>
+          QIQI is d&eacute; nieuwe generatie straightening: een snelle, verzorgende
+          behandeling die frizz en pluis aanpakt en je haar wekenlang glad, soepel
+          en glanzend houdt &mdash; zonder je krul of natuurlijke beweging volledig
+          weg te nemen als je dat niet wil.
+        </p>
+        <ul>
+          <li>Behandeling in &plusmn; 30 minuten, direct resultaat</li>
+          <li>Vermindert frizz en halveert je f&ouml;hntijd</li>
+          <li>Geschikt voor bijna elk haartype, ook gekleurd haar</li>
+          <li>Resultaat houdt weken aan, afhankelijk van je haartype</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Anti-frizz</span>
+          <span class="tag">Snel &amp; verzorgend</span>
+          <span class="tag">Prijs op aanvraag</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- wave: blue -> cream -->
+  <svg class="wave" style="background:#d2e4ee" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,35 C240,70 500,0 740,35 C980,68 1220,8 1440,38 L1440,70 L0,70 Z" fill="#fdfaf4"/>
+  </svg>
+
+  <!-- ============ AANVULLENDE BEHANDELINGEN ============ -->
+  <section class="detail" id="extra">
+    <div class="wrap detail-inner reverse">
+      <div class="detail-visual" style="background:#d2e4ee">
+        <img src="Assets/Logo/Logo_RED.png" alt="">
+      </div>
+      <div>
+        <span class="section-label" style="background:#7d121e;color:#d2e4ee">Aanvullende behandelingen</span>
+        <h2 class="section-title">De finishing touch</h2>
+        <p>
+          Naast kleur en verzorging kan je bij KOLORY ook terecht voor alles wat je
+          look compleet maakt.
+        </p>
+        <ul>
+          <li>Knippen &amp; stylen, dames en heren</li>
+          <li>Brushing &amp; f&ouml;hnen voor een feestje of gewoon omdat het kan</li>
+          <li>Verzorgende boosters en haarmaskers bij je kleurbehandeling</li>
+          <li>Feest- en gelegenheidskapsels (communie, trouw, gala&hellip;)</li>
+          <li>Cadeaubonnen &mdash; altijd een goed idee</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Knippen</span>
+          <span class="tag">Styling</span>
+          <span class="tag">Cadeaubonnen</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- wave: cream -> sage -->
+  <svg class="wave" style="background:#fdfaf4" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,40 C240,80 480,0 720,30 C960,60 1200,10 1440,40 L1440,70 L0,70 Z" fill="#517664"/>
+  </svg>
+
+  <!-- ============ PRAKTISCH ============ -->
+  <section class="practical" id="praktisch" style="padding-top:3rem">
+    <div class="wrap">
+      <span class="section-label">Praktisch</span>
+      <h2 class="section-title">Maak een afspraak</h2>
+      <p class="lead">
+        Reserveer je moment via telefoon of Instagram. Liever eerst even overleggen
+        over een kleur of behandeling? Bel of stuur gerust een berichtje.
+      </p>
+
+      <div class="practical-grid">
+        <div class="practical-card">
+          <h3>Openingsuren</h3>
+          <table>
+            <tr><td>Maandag</td><td>gesloten</td></tr>
+            <tr><td>Dinsdag</td><td>9:00 &ndash; 18:00</td></tr>
+            <tr><td>Woensdag</td><td>9:00 &ndash; 18:00</td></tr>
+            <tr><td>Donderdag</td><td>9:00 &ndash; 20:00</td></tr>
+            <tr><td>Vrijdag</td><td>9:00 &ndash; 18:00</td></tr>
+            <tr><td>Zaterdag</td><td>8:30 &ndash; 16:00</td></tr>
+            <tr><td>Zondag</td><td>gesloten</td></tr>
+          </table>
+        </div>
+        <div class="practical-card">
+          <h3>Contact</h3>
+          <p>
+            <!-- TODO: echte gegevens invullen -->
+            &#128222; <a href="tel:+32000000000">+32 000 00 00 00</a><br>
+            &#128231; <a href="mailto:info@kolory.be">info@kolory.be</a><br>
+            &#128248; <a href="https://instagram.com/" target="_blank" rel="noopener">@kolory.hair</a>
+          </p>
+        </div>
+        <div class="practical-card">
+          <h3>Waar?</h3>
+          <p>
+            <!-- TODO: echt adres invullen -->
+            Straatnaam 1<br>
+            3500 Hasselt<br><br>
+            Parkeren kan vlakbij.
+          </p>
+        </div>
+        <div class="practical-card">
+          <h3>Goed om te weten</h3>
+          <p style="font-size:0.95rem">
+            Kom je voor een kleurbehandeling? Reken op 1,5 tot 3 uur, afhankelijk
+            van de techniek. Verwittig minstens 24 uur op voorhand als je niet kan
+            komen &mdash; zo kan iemand anders jouw plekje krijgen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <img src="Assets/Logo/Logo_ORANGE.png" alt="KOLORY">
+      <div class="footer-social">
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+      <p>&copy; 2026 KOLORY &mdash; alle prijzen zijn richtprijzen.</p>
+    </div>
+  </footer>
+
+  <script>
+    // sluit het mobiele menu na een klik op een link
+    document.querySelectorAll('.nav-links a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.querySelector('.nav-links').classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
